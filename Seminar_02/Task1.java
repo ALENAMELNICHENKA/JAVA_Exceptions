@@ -21,6 +21,7 @@ public class Task1 {
          } catch (ArrayIndexOutOfBoundsException e){
                 System.out.println("Выход за пределы массива!");
          }
+         scanner.close();
      }
         
  }
